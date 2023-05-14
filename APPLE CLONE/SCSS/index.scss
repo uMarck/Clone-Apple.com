@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$font: "SF Pro Display", "Montserrat", "Poppins";
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* From https://css.glass */
+    background: rgba(73, 73, 73, 0.63);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    img {
+        filter: invert(1);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: $font;
+        padding: 1rem;
+        font-size: 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    #sacola {
+        margin: 0px 20px 0px 20px
+    }
+
+    #lupa {
+        margin: 0px 10px 0px 10px
+    }
+}
+
+.container {
+    height: 100vh;
+    background: url(../IMAGENS/IPHONE-14PRO.jpg);
+    background-size: cover;
+    background-position: center;
+    h1 {
+        color: white;
+        font-family: $font;
+        padding-top: 5rem;
+        font-size: 48px;
+        text-align: center;
+    }
+    h2 {
+        color: white;
+        font-family: $font;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        width: 200px;
+        padding-top: 15px;
+        a {
+            text-align: center;
+            margin: auto;
+            font-family: "Poppins";
+            color: aqua;
+        }
+    }
+}
+
+.container-2 {
+    height: 100vh;
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: $font;
+        padding-top: 5rem;
+        font-size: 48px;
+        text-align: center;
+    }
+    h2 {
+        color: rgb(0, 0, 0);
+        font-family: $font;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        width: 200px;
+        padding-top: 25px;
+        a {
+            text-align: center;
+            margin: auto;
+            font-family: "Poppins";
+            color: blue;
+        }
+    }
+
+    .imagem {
+        background: url(../IMAGENS/IPHONE\ 14.jpg);
+        background-position: center;
+        background-size: 2550px;
+        margin-top: -165px;
+        height: 95%;
+    }
+}
+
+.container-3 {
+    height: 100vh;
+    background-image: url(../IMAGENS/IPOD.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 245;
+    h1 {
+        text-align: center;
+        font-family: $font;
+        color: #494949;
+        font-size: 48px;
+        padding-top: 4.5rem;
+    }
+    h2 {
+        font-size: 25px;
+        padding-top: 1.5rem;
+        font-family: $font;
+        font-weight: 300;
+        text-align: center;
+    }
+    .links {
+        text-align: center;
+        padding-top: 1.5rem;
+        a {
+            text-align: center;
+            color: rgb(0, 132, 255);
+            font-size: 20px;
+            font-family: $font;
+        }
+    }
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    #trade-in {
+        height: 578px;
+        width: 100%;
+        padding: 1rem;
+        margin: 0.3rem;
+        background: url(../IMAGENS/TRADE\ IN.jpg);
+        background-position: center;
+        background-size: cover;
+        .hd {
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            color: black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 0.5rem;
+            font-family: $font;
+            img {
+                margin: 0px 2px 0px 2px;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+            font-family: $font;
+            font-weight: 300;
+            font-size: 20px;
+            padding-top: 0.4rem;
+        }
+
+        a {
+            text-align: center;
+            margin: auto;
+            text-decoration: none;
+            color: rgb(0, 153, 255);
+            font-family: $font;
+            display: grid;
+            place-items: center;
+            padding-top: 0.4rem;
+        }
+    }
+    #wwdc {
+        height: 578px;
+        width: 100%;
+        padding: 1rem;
+        margin: 0.3rem;
+        background: url(../IMAGENS/WWDC23.jpg);
+        background-position: center;
+        background-size: cover;
+        font-family: $font;
+        .hd {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 392px;
+            #hd {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                img {
+                    filter: invert(1);
+                }
+            }
+            h3 {
+                margin: 0.3rem 0 0.3rem 0;
+                font-weight: 300;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(0, 128, 255);
+            }
+        }
+    }
+}
