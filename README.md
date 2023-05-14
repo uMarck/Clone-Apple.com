@@ -1,15 +1,9 @@
 # Clone-Apple.com
-Este é apenas um começo do site clone da Apple.com pretendo ir atualizando com o tempo.
+Um clone idêntico do site da Apple.com
 
-Ferramentas usadas
-- SASS CSS
+# Hospedagem
+Vercel.app
 
-- CSS3
-
-- HTLM5
-
-Não pretendo usar Javascript, já que é apenas para exibição, mas possa ser que mude de ideia se um dia eu pensar em colocar um menu lateral ou algo deste tipo.
-
-Todas as imagens foram pegas do Google.
-
-A principio não está responsivo, primeiro irei terminar para versão desktop, e depois mobile.
+# Telas
+A principio, ainda não tem telas maiores e nem menores, apenas a tela de 1336px (Meu monitor)
+Logo após eu terminar o principal, irei adaptar para várias telas.
