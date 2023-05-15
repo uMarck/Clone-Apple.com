@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 $font: "SF Pro Display", "Montserrat", "Poppins";
 
 header {
@@ -419,6 +424,132 @@ header {
             a {
                 text-decoration: none;
                 color: rgb(0, 128, 255);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    ::selection {
+        background-color: #fafafa;
+        color: #494949;
+    }
+    body {
+        background-color: #fbfbfd;
+    }
+    .container {
+        height: 100vh;
+        h1 {
+            padding-top: 10.5rem;
+        }
+
+        .links {
+            width: 300px;
+        }
+    }
+
+    .container-2 {
+        height: 100vh;
+        h1 {
+            color: rgb(0, 0, 0);
+            background-color: #fafafa;
+            font-family: $font;
+            font-size: 68px;
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            font-family: $font;
+            text-align: center;
+            font-size: 45px;
+            font-weight: 300;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: auto;
+            width: 300px;
+            padding-top: 25px;
+            a {
+                text-align: center;
+                margin: auto;
+                font-family: "Poppins";
+                color: blue;
+            }
+        }
+
+        .imagem {
+            background: url(../IMAGENS/IPHONE\ 14.jpg);
+            background-position: center;
+            background-size:1000px;
+            background-repeat: no-repeat;
+            height: none;
+        }
+    }
+
+    .container-3 {
+        background-color: rgba(255, 255, 255, 0.623);
+        background-size: 555px;
+        background-position: bottom;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        #top {
+            h1 {
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                width: 100%;
+            }
+            position: relative;
+            top: 55px;
+        }
+    }
+
+    .container-4 {
+        height: 100vh;
+        background-color: #fafafa;
+        #trade-in {
+            height: 98%;
+            padding-top: 5.5rem;
+        }
+        #wwdc {
+            height: 98%;
+            #hd {
+                padding-top: 8rem;
+            }
+        }
+    }
+    
+    .container-5 {
+        height: 100vh;
+        background-color: #fafafa;
+        #trade-in {
+            height: 98%;
+            padding-top: 4.5rem;
+        }
+        #wwdc {
+            height: 98%;
+            #hd {
+                padding-top: 4.5rem;
+            }
+        }
+    }
+
+    .container-6 {
+        height: 100vh;
+        background-color: #fafafa;
+        #trade-in {
+            height: 98%;
+            padding-top: 4.5rem;
+        }
+        #wwdc {
+            height: 98%;
+            #hd {
+                padding-top:5rem;
             }
         }
     }

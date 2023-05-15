@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -408,4 +412,125 @@ header #lupa {
 .container-6 #wwdc .hd a {
   text-decoration: none;
   color: rgb(0, 128, 255);
+}
+
+@media screen and (max-width: 1920px) {
+  ::-moz-selection {
+    background-color: #fafafa;
+    color: #494949;
+  }
+  ::selection {
+    background-color: #fafafa;
+    color: #494949;
+  }
+  body {
+    background-color: #fbfbfd;
+  }
+  .container {
+    height: 100vh;
+  }
+  .container h1 {
+    padding-top: 10.5rem;
+  }
+  .container .links {
+    width: 300px;
+  }
+  .container-2 {
+    height: 100vh;
+  }
+  .container-2 h1 {
+    color: rgb(0, 0, 0);
+    background-color: #fafafa;
+    font-family: "SF Pro Display", "Montserrat", "Poppins";
+    font-size: 68px;
+    text-align: center;
+  }
+  .container-2 h2 {
+    color: rgb(0, 0, 0);
+    font-family: "SF Pro Display", "Montserrat", "Poppins";
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+  }
+  .container-2 .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    padding-top: 25px;
+  }
+  .container-2 .links a {
+    text-align: center;
+    margin: auto;
+    font-family: "Poppins";
+    color: blue;
+  }
+  .container-2 .imagem {
+    background: url(../IMAGENS/IPHONE\ 14.jpg);
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    height: none;
+  }
+  .container-3 {
+    background-color: rgba(255, 255, 255, 0.623);
+    background-size: 555px;
+    background-position: bottom;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .container-3 #top {
+    position: relative;
+    top: 55px;
+  }
+  .container-3 #top h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .container-4 {
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  .container-4 #trade-in {
+    height: 98%;
+    padding-top: 5.5rem;
+  }
+  .container-4 #wwdc {
+    height: 98%;
+  }
+  .container-4 #wwdc #hd {
+    padding-top: 8rem;
+  }
+  .container-5 {
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  .container-5 #trade-in {
+    height: 98%;
+    padding-top: 4.5rem;
+  }
+  .container-5 #wwdc {
+    height: 98%;
+  }
+  .container-5 #wwdc #hd {
+    padding-top: 4.5rem;
+  }
+  .container-6 {
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  .container-6 #trade-in {
+    height: 98%;
+    padding-top: 4.5rem;
+  }
+  .container-6 #wwdc {
+    height: 98%;
+  }
+  .container-6 #wwdc #hd {
+    padding-top: 5rem;
+  }
 }/*# sourceMappingURL=index.css.map */
