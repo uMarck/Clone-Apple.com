@@ -1,11 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;800;900&family=Poppins:wght@100;200;400;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 header {
@@ -415,122 +412,249 @@ header #lupa {
 }
 
 @media screen and (max-width: 1920px) {
-  ::-moz-selection {
-    background-color: #fafafa;
-    color: #494949;
-  }
-  ::selection {
-    background-color: #fafafa;
-    color: #494949;
-  }
-  body {
-    background-color: #fbfbfd;
-  }
-  .container {
-    height: 100vh;
-  }
   .container h1 {
-    padding-top: 10.5rem;
+    padding-top: 5.5rem;
+    font-size: 80px;
   }
-  .container .links {
-    width: 300px;
+  .container h2 {
+    font-size: 45px;
   }
   .container-2 {
-    height: 100vh;
+    background: url(../IMAGENS/IPHONE\ 14.jpg);
+    background-size: cover;
+    background-position: center;
   }
   .container-2 h1 {
-    color: rgb(0, 0, 0);
-    background-color: #fafafa;
-    font-family: "SF Pro Display", "Montserrat", "Poppins";
-    font-size: 68px;
-    text-align: center;
+    padding-top: 5.5rem;
+    font-size: 85px;
   }
   .container-2 h2 {
-    color: rgb(0, 0, 0);
-    font-family: "SF Pro Display", "Montserrat", "Poppins";
-    text-align: center;
     font-size: 45px;
-    font-weight: 300;
-  }
-  .container-2 .links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-    width: 300px;
-    padding-top: 25px;
-  }
-  .container-2 .links a {
-    text-align: center;
-    margin: auto;
-    font-family: "Poppins";
-    color: blue;
-  }
-  .container-2 .imagem {
-    background: url(../IMAGENS/IPHONE\ 14.jpg);
-    background-position: center;
-    background-size: 1000px;
-    background-repeat: no-repeat;
-    height: none;
   }
   .container-3 {
-    background-color: rgba(255, 255, 255, 0.623);
-    background-size: 555px;
-    background-position: bottom;
+    background-color: #FBFBFD;
+  }
+  .container-4 #trade-in, .container-4 #wwdc {
     height: 100vh;
-    padding: 0;
-    margin: 0;
   }
-  .container-3 #top {
-    position: relative;
-    top: 55px;
-  }
-  .container-3 #top h1 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-  }
-  .container-4 {
-    height: 100vh;
-    background-color: #fafafa;
-  }
-  .container-4 #trade-in {
-    height: 98%;
+  .container-4 #trade-in .hd, .container-4 #wwdc .hd {
     padding-top: 5.5rem;
   }
-  .container-4 #wwdc {
-    height: 98%;
-  }
-  .container-4 #wwdc #hd {
-    padding-top: 8rem;
-  }
-  .container-5 {
+  .container-5 #trade-in, .container-5 #wwdc {
     height: 100vh;
-    background-color: #fafafa;
   }
-  .container-5 #trade-in {
-    height: 98%;
-    padding-top: 4.5rem;
+  .container-5 #trade-in .hd, .container-5 #wwdc .hd {
+    padding-top: 5.5rem;
   }
-  .container-5 #wwdc {
-    height: 98%;
-  }
-  .container-5 #wwdc #hd {
-    padding-top: 4.5rem;
-  }
-  .container-6 {
+  .container-6 #trade-in, .container-6 #wwdc {
     height: 100vh;
-    background-color: #fafafa;
   }
-  .container-6 #trade-in {
-    height: 98%;
-    padding-top: 4.5rem;
+  .container-6 #trade-in .hd, .container-6 #wwdc .hd {
+    padding-top: 5.5rem;
   }
-  .container-6 #wwdc {
-    height: 98%;
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-  .container-6 #wwdc #hd {
-    padding-top: 5rem;
+  footer #cima {
+    width: 55%;
+    padding-top: 3.5rem;
+  }
+  footer #cima p {
+    font-size: 13px;
+    font-family: "SF Pro Display", "Montserrat", "Poppins";
+    line-height: 35px;
+    color: #494949;
+  }
+  footer #cima p:nth-child(8) {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #494949;
+  }
+  footer #baixo {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  footer #baixo #fts {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+  }
+  footer #baixo #fts #shop, footer #baixo #fts #wallet, footer #baixo #fts #education, footer #baixo #fts #account, footer #baixo #fts #entertainment,
+  footer #baixo #fts #business, footer #baixo #fts #health, footer #baixo #fts #gover, footer #baixo #fts #astore, footer #baixo #fts #values, footer #baixo #fts #about {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  footer #baixo #fts #shop p, footer #baixo #fts #wallet p, footer #baixo #fts #education p, footer #baixo #fts #account p, footer #baixo #fts #entertainment p,
+  footer #baixo #fts #business p, footer #baixo #fts #health p, footer #baixo #fts #gover p, footer #baixo #fts #astore p, footer #baixo #fts #values p, footer #baixo #fts #about p {
+    font-family: "SF Pro Display", "Montserrat", "Poppins";
+  }
+  footer #baixo #fts #shop a, footer #baixo #fts #wallet a, footer #baixo #fts #education a, footer #baixo #fts #account a, footer #baixo #fts #entertainment a,
+  footer #baixo #fts #business a, footer #baixo #fts #health a, footer #baixo #fts #gover a, footer #baixo #fts #astore a, footer #baixo #fts #values a, footer #baixo #fts #about a {
+    text-decoration: none;
+    font-family: "SF Pro Display", "Montserrat", "Poppins";
+    color: #494949;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  #rp {
+    margin: auto;
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+  #rp p {
+    font-family: "SF Pro Display", "Montserrat", "Poppins";
+  }
+  #rp #bar {
+    border: 1px solid #494949;
+    height: 1px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  footer #baixo {
+    width: 100%;
+  }
+  footer #baixo #fts {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+  header a, header #lupa, header #sacola {
+    display: none;
+  }
+  footer #baixo #fts {
+    height: 100vh;
+    text-align: left;
+  }
+  footer #baixo #fts #shop, footer #baixo #fts #wallet, footer #baixo #fts #education, footer #baixo #fts #account, footer #baixo #fts #entertainment,
+  footer #baixo #fts #business, footer #baixo #fts #health, footer #baixo #fts #gover, footer #baixo #fts #astore, footer #baixo #fts #values, footer #baixo #fts #about {
+    text-align: left;
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 1.5rem;
+    padding: 0;
+  }
+  #rp {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  header {
+    display: none;
+  }
+  .container h1 {
+    font-size: 45px;
+  }
+  .container h2 {
+    font-size: 30px;
+  }
+  .container-2 h1 {
+    font-size: 40px;
+  }
+  .container-2 h2 {
+    font-size: 30px;
+  }
+  .container-3 h1 {
+    font-size: 35px;
+  }
+  .container-3 h2 {
+    font-size: 25px;
+  }
+  .container-4, .container-5, .container-6 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: none;
+  }
+  footer #baixo {
+    display: flex;
+    flex-direction: column;
+  }
+  #rp {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  #rp p {
+    color: #777777;
+  }
+}
+@media screen and (max-width: 414px) {
+  header {
+    display: none;
+  }
+  .container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container h1 {
+    font-size: 35px;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+  .container-2 {
+    background-size: cover;
+    background-position: bottom;
+  }
+  .container-2 h1 {
+    font-size: 45px;
+  }
+  .container-2 h2 {
+    font-size: 30px;
+  }
+  .container-3 {
+    background-size: cover;
+  }
+  .container-4, .container-5, .container-6 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: none;
+  }
+  footer #baixo {
+    flex-direction: column;
+  }
+  footer #baixo #fts {
+    width: 100%;
+    height: auto;
+  }
+  #rp {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container-3 h1 {
+    font-size: 30px;
+  }
+  .container-3 h2 {
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
   }
 }/*# sourceMappingURL=index.css.map */
