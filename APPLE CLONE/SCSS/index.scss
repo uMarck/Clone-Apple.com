@@ -1,12 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;800;900&family=Poppins:wght@100;200;400;600;700&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-
-html {
-    scroll-behavior: smooth;
 }
 
 $font: "SF Pro Display", "Montserrat", "Poppins";
@@ -430,127 +426,324 @@ header {
 }
 
 @media screen and (max-width: 1920px) {
-    ::selection {
-        background-color: #fafafa;
-        color: #494949;
-    }
-    body {
-        background-color: #fbfbfd;
-    }
     .container {
-        height: 100vh;
         h1 {
-            padding-top: 10.5rem;
+            padding-top: 5.5rem;
+            font-size: 80px;
         }
 
-        .links {
-            width: 300px;
+        h2 {
+            font-size: 45px;
         }
     }
 
     .container-2 {
-        height: 100vh;
+        background: url(../IMAGENS/IPHONE\ 14.jpg);
+        background-size: cover;
+        background-position: center;
         h1 {
-            color: rgb(0, 0, 0);
-            background-color: #fafafa;
-            font-family: $font;
-            font-size: 68px;
-            text-align: center;
+            padding-top: 5.5rem;
+            font-size: 85px;
         }
-
         h2 {
-            color: rgb(0, 0, 0);
-            font-family: $font;
-            text-align: center;
             font-size: 45px;
-            font-weight: 300;
-        }
-
-        .links {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin: auto;
-            width: 300px;
-            padding-top: 25px;
-            a {
-                text-align: center;
-                margin: auto;
-                font-family: "Poppins";
-                color: blue;
-            }
-        }
-
-        .imagem {
-            background: url(../IMAGENS/IPHONE\ 14.jpg);
-            background-position: center;
-            background-size:1000px;
-            background-repeat: no-repeat;
-            height: none;
         }
     }
 
     .container-3 {
-        background-color: rgba(255, 255, 255, 0.623);
-        background-size: 555px;
-        background-position: bottom;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        #top {
-            h1 {
-                padding: 0;
-                margin: 0;
-                text-align: center;
-                width: 100%;
-            }
-            position: relative;
-            top: 55px;
-        }
+        background-color: #FBFBFD;
     }
 
     .container-4 {
-        height: 100vh;
-        background-color: #fafafa;
-        #trade-in {
-            height: 98%;
-            padding-top: 5.5rem;
-        }
-        #wwdc {
-            height: 98%;
-            #hd {
-                padding-top: 8rem;
+        #trade-in, #wwdc  {
+            .hd {
+                padding-top: 5.5rem;
             }
+            height: 100vh;
         }
     }
-    
+
     .container-5 {
-        height: 100vh;
-        background-color: #fafafa;
-        #trade-in {
-            height: 98%;
-            padding-top: 4.5rem;
-        }
-        #wwdc {
-            height: 98%;
-            #hd {
-                padding-top: 4.5rem;
+        #trade-in, #wwdc  {
+            .hd {
+                padding-top: 5.5rem;
             }
+            height: 100vh;
         }
     }
 
     .container-6 {
-        height: 100vh;
-        background-color: #fafafa;
-        #trade-in {
-            height: 98%;
-            padding-top: 4.5rem;
-        }
-        #wwdc {
-            height: 98%;
-            #hd {
-                padding-top:5rem;
+        #trade-in, #wwdc  {
+            .hd {
+                padding-top: 5.5rem;
             }
+            height: 100vh;
+        }
+    }
+
+    // footer {
+    //     width: 100%;
+    //     height: 100vh;
+    //     display: grid;
+    //     place-content: center;
+
+    //     #dir {
+    //         display: flex;
+    //         flex-direction: row;
+    //         align-items: center;
+    //         justify-content: space-evenly;
+    //         width: 100%;
+    //         #one, #two {
+    //             margin: 0 15.5rem 0 15.5rem;
+    //             p {
+    //                 font-size: 45px;
+    //                 font-family: $font;
+    //             }
+    //             a {
+    //                 text-decoration: none;
+    //                 color: black;
+    //             }
+    //         }
+    //     }
+    // }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        #cima {
+            width: 55%;
+            padding-top: 3.5rem;
+            p {
+                font-size: 13px;
+                font-family: $font;
+                line-height: 35px;
+                color: #494949;
+            }
+            p:nth-child(8) {
+                padding-bottom: 1rem;
+                border-bottom: 1px solid #494949;
+            }
+        }
+
+        #baixo {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            align-self: center;
+            align-content: center;
+            #fts {
+                display: flex;
+                flex-direction: column;
+                height: 70vh;
+                #shop, #wallet, #education, #account, #entertainment,
+                #business, #health, #gover, #astore, #values, #about {
+                    margin-top:1.2rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: auto;
+                    p {
+                        font-family: $font;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-family: $font;
+                        color: #494949;
+                        margin: 0.5rem 0 0.5rem 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #rp {
+        margin: auto;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        p {
+            font-family: $font;
+        }
+        #bar {
+            border: 1px solid #494949;
+            height: 1px;
+            width: 100%;
+            margin: 10px 0 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    footer {
+        #baixo {
+            width: 100%;
+            #fts {
+                height: 100vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1rem;
+        a, #lupa, #sacola {
+            display: none;
+        }
+    }
+
+    footer {
+        #baixo {
+            #fts {
+                height: 100vh;
+                text-align: left;
+                #shop, #wallet, #education, #account, #entertainment,
+                #business, #health, #gover, #astore, #values, #about {
+                    text-align: left;
+                    display: grid;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                    margin-right: 1.5rem;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    #rp {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    header {
+        display: none;
+    }
+    .container {
+        h1 {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .container-2 {
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .container-3 {
+        h1 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .container-4, .container-5, .container-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: none;
+        #baixo {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    #rp {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 2rem;
+        p {
+            color: #777777;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        display: none;
+    }
+
+    .container {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .container-2 {
+        background-size: cover;
+        background-position: bottom;
+        h1 {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .container-3 {
+        background-size: cover;
+    }
+
+    .container-4, .container-5, .container-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: none;
+        #baixo {
+            flex-direction: column;
+            #fts {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    
+    #rp {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-3 {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            width: 85%;
+            margin: auto;
         }
     }
 }
