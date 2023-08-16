@@ -412,6 +412,9 @@ header #lupa {
 }
 
 @media screen and (max-width: 1920px) {
+  body {
+    background-color: #FBFBFD;
+  }
   .container h1 {
     padding-top: 5.5rem;
     font-size: 80px;
@@ -433,6 +436,10 @@ header #lupa {
   }
   .container-3 {
     background-color: #FBFBFD;
+    background-size: cover;
+  }
+  .container-3 h1 {
+    padding-top: 5.5rem;
   }
   .container-4 #trade-in, .container-4 #wwdc {
     height: 100vh;
